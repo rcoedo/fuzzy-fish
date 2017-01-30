@@ -1,4 +1,4 @@
-function ifind
+function __fuzzy_file
     set dir $argv
     if test (count $argv) -gt 2 -o (count $argv) -lt 1
         set dir (pwd)

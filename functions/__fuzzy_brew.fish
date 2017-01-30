@@ -1,4 +1,4 @@
-function ibrew
+function __fuzzy_brew
     if test (count $argv) = 1
         brew search $argv[1] | __fuzzy_find | read tempvar
         if [ $tempvar ]

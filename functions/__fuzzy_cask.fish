@@ -1,4 +1,4 @@
-function icask
+function __fuzzy_cask
     if test (count $argv) = 1
         brew cask search $argv[1] | grep -v "==>" | __fuzzy_find | read tempvar
         if [ $tempvar ]
