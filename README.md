@@ -22,4 +22,5 @@ fisher rcoedo/fuzzy-fish
 | `__fuzzy_kill`                 | Searches a process to `kill`.                              | `__fuzzy_kill`          |
 | `__fuzzy_ps`                   | Searches a pid to insert in the current line.              | `__fuzzy_ps`            |
 | `__fuzzy_rcd`                  | cd into the directories `pwd`, recursive version of icd.   | `__fuzzy_cd`            |
-| `__fuzzy_ghq`                  | cd into your ghq repositories.                             | `__fuzzy_ghq`           |
+| `__fuzzy_ghq`                  | cd into ghq repositories.                                  | `__fuzzy_ghq`           |
+| `__fuzzy_git_branch`           | checkout git branches.                                     | `__fuzzy_git_branch`    |
