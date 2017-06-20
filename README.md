@@ -10,6 +10,8 @@ Install as a fisherman plugin
 fisher rcoedo/fuzzy-fish
 ```
 
+The plugin expects you to have an alias `__fuzzy_find`, which should be an interactive filtering tool like [fzf](https://github.com/junegunn/fzf) or [peco](https://github.com/peco/peco).
+
 ## Usage
 
 | function                       | Description                                                | Example                 |
