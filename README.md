@@ -26,3 +26,4 @@ The plugin expects you to have an alias `__fuzzy_find`, which should be an inter
 | `__fuzzy_rcd`                  | cd into the directories `pwd`, recursive version of icd.   | `__fuzzy_cd`            |
 | `__fuzzy_ghq`                  | cd into ghq repositories.                                  | `__fuzzy_ghq`           |
 | `__fuzzy_git_branch`           | checkout git branches.                                     | `__fuzzy_git_branch`    |
+| `__fuzzy_lsof`                 | searches open ports                                        | `__fuzzy_lsof`          |
