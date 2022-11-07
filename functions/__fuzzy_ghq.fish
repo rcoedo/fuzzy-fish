@@ -3,6 +3,7 @@ function __fuzzy_ghq
         ghq list | __fuzzy_find | read tempvar
         if test (count $tempvar) -gt 0
             cd (ghq root)/$tempvar
+            commandline -f repaint
         end
     end
 end

@@ -7,5 +7,6 @@ function __fuzzy_rcd
     find $dir -type d -not -path "*/.*/*" -not -name ".*" | __fuzzy_find | tr -d "\n" | read tempvar
     if [ $tempvar ]
         cd $tempvar
+        commandline -f repaint
     end
 end
